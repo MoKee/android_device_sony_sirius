@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2013 The MoKee OpenSource Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -25,10 +25,10 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/sirius/include
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/sirius/bluetooth
 
-BOARD_HARDWARE_CLASS += device/sony/sirius/cmhw
+BOARD_HARDWARE_CLASS += device/sony/sirius/mkhw
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := cm_shinano_sirius_defconfig
+TARGET_KERNEL_CONFIG := mokee_shinano_sirius_defconfig
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 25
