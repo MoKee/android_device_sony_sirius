@@ -22,7 +22,7 @@ DEVICE_PATH := device/sony/sirius
 TARGET_OTA_ASSERT_DEVICE := sirius
 
 # Kernel properties
-TARGET_KERNEL_CONFIG := lineageos_shinano_sirius_defconfig
+TARGET_KERNEL_CONFIG := mokee_shinano_sirius_defconfig
 
 # Partition information
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2671771648
